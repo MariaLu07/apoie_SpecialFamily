@@ -179,13 +179,28 @@
       margin-top: 40px;
   }
 
-  .card {
-      background-color: #3e8ebf;
-      border-radius: 40px;
-      padding: 25px;
-      flex: 1;
-      min-width: 250px;
-      max-width: 320px;
-      box-sizing: border-box;
-      line-height: 1.6;
-  }
+    .qr-container {
+      text-align: center;
+      margin-left: 60px;
+      color: #000;
+      max-width: 300px;
+    }
+
+    .qr-container h2 {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      color: #02084b;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .qr-img {
+      width: 180px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .qr-texto {
+      font-size: 16px;
+      color: #000;
+      margin-top: 10px;
+    }
